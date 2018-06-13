@@ -8,7 +8,7 @@ The factory method is just a method, it can be overridden in a subclass:
 > The Factory Method Pattern uses inheritance and relies on a subclass to handle
 > the desired object instantiation.
 
-The abstract factory is an object tht has multiple factory methods on it:
+The abstract factory is an object that has multiple factory methods on it:
 
 > In the Abstract Factory Pattern, a class delegates the responsibility of
 > object instantiation to another object via composition
