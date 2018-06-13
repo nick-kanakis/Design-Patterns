@@ -10,13 +10,4 @@ abstract public class BeverageDecorator implements Beverage {
         this.decoratedBeverage = decoratedBeverage;
     }
 
-    @Override
-    public String printDescription() {
-        return decoratedBeverage.printDescription();
-    }
-
-    @Override
-    public double getCost() {
-       return decoratedBeverage.getCost();
-    }
 }
