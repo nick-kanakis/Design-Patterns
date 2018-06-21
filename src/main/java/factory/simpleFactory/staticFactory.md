@@ -1,8 +1,5 @@
 # Simple Factory Pattern
 
-## Definition
-This is not a "official pattern", so no official definition exists
-
 ## When to use it ?
 When you have a list of a concrete implementations of an interface, and
 you want a **simple** object that handles the creation of them during run-time instead
