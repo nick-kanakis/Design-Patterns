@@ -1,8 +1,5 @@
 # MVC Pattern
 
-## Definition
-This is not an official pattern.
-
 ## Explanation
 MVC is a software architecture - the structure of the system -
 that separates domain/application/business  logic from the rest of the user interface.
