@@ -14,7 +14,7 @@ going to need.
 As the name suggest this pattern is relied in an abstract method that is the
 factory of new objects
 
-1. Create an interface for the objects you want to create a factory for.
+1. Create an interface for the objects (products) that the factory method is going to create.
 2. Make the class you want to add the factory method an abstract class, and
    and an abstract method that is the factory on new instances.
 3. Use this abstract factory method when you need to create an object.

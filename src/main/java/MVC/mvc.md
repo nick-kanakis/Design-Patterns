@@ -9,8 +9,8 @@ The model manages fundamental behaviors and data of the application.
 It can respond to requests for information, respond to instructions
 to change the state of its information, and even to notify observers (**Observer Pattern**)
 in event-driven systems when information changes. This could be a database,
-or any number of data structures or storage systems. In short,
-it is the data and data-management of the application.
+or any number of data structures or storage systems. **In short,
+it is the data and data-management of the application.**
 
 The view effectively provides the user interface element of the application.
 It'll render data from the model into a form that is suitable for the user interface.
