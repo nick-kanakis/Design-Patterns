@@ -10,7 +10,7 @@ Keep in mind that when you are in a multithreaded environment you need to
 refactor the code to avoid multiple thread accessing the instantiation part.
 There are 3 ways to do it:
 
-1. Make getInstance() method static. Easy but this will cause performance issues
+1. Make getInstance() method synchronized. Easy but this will cause performance issues
 even when the instance has been instantiated.
 2. Do not use lazy instantiation. Instantiate the object in a static initializer
 eg:
