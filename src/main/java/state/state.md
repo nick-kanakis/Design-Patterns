@@ -13,7 +13,7 @@ state/behavior it is in, while in the Strategy pattern this is done by the
 client.
 
 ## How to use it ?
-1. Create a Context class that in haldes the requests by foreign clients,
+1. Create a Context class that in handles the requests by foreign clients,
 It holds the current state of the system as well as every method of or system
 exposed as API.
 1. Create an interface State with every available action an the state diagram of
