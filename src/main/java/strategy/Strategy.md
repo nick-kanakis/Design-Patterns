@@ -18,6 +18,18 @@ When you have behavior of a class that may change in the future,
    coupled  part (behavior/algorithm...). Use inversion of control to
    change them during run time.
 
+### Inversion of Control vs Dependency injection
+
+**IoC** means that objects do not create other objects on which they rely on.
+Instead they get the objects from outside sources (Do not create objects request
+from the outside world to provide one to you)
+
+**DI** is a form IoC where implementation are passed through setter/constructors
+
+**IoC without DI**: You can change the implementation through subclassing like in the
+current implementation of Strategy pattern or in Template pattern.
+
+
 ## Visual
 ![strategy](strategy.JPG)
 

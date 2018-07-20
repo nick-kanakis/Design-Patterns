@@ -10,7 +10,7 @@ can pass the request to the first object and call the next object if
 the request need more processing.
 
 ## How to use it ?
-1. Create an abstract class that has a reference of itself, a method to
+1. Create an abstract class that has a reference of the next level, a method to
 set the next level to forward the request, a process method
 that process the request and forward it to the next level, and abstract
 methods that differ in each concrete implementation.
